@@ -1,11 +1,12 @@
 import React from 'react'
+import { Input } from '../ui/input'
 
 function NavSearch() {
   return (
     <div>
-      NavSearch
+      <Input type='search' placeholder='Search product' className='max-w-xs dark:bg-muted'/>
     </div>
-  )
+  );
 }
 
 export default NavSearch
