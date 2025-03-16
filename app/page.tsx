@@ -7,6 +7,6 @@ function HomePage(){
   return <>
     <Hero/>
     <FeaturedProducts/>
-    </>
+  </>
 };
 export default HomePage;
